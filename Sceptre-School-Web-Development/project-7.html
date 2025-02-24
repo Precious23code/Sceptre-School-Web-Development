@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Landing Page</title>
+</head>
+<body>
+    <link rel="stylesheet" href="project-7.css"/>
+  <header>
+      <nav class="navbar">        
+        <div class="logo">MyLogo</div>        
+        <ul class="nav-links">            
+        <li><a href="#home">Home</a></li>            
+        <li><a href="#about">About</a></li>            
+        <li><a href="#services">Services</a></li>            
+        <li><a href="#contact">Contact</a></li>       
+     </ul>    
+    </nav>    
+    <div class="hero">    
+        <h1>Welcome to My Landing Page</h1>        
+        <p>Beautifully crafted with HTML, CSS, and JavaScript</p>
+    </div> 
+  </header> 
+  <section id="about">    
+    <h2>About Us</h2>   
+     <p>Information about the company or product.</p> 
+    </section> 
+    <section id="services">
+        <h2>Our Services</h2>    
+        <p>Details of the services offered.</p> 
+    </section> 
+    <section id="contact">    
+        <h2>Contact Us</h2>
+                <form>        
+                    <input type="text" placeholder="Your Name">        
+                    <input type="email" placeholder="Your Email">        
+                    <textarea placeholder="Your Message"></textarea>        
+                    <button type="submit">Send</button>    
+                </form> 
+            </section> 
+            <script>
+                document
+                .querySelector("form")
+                .addEventListener("submit", function(event) {   
+                     event.preventDefault();    
+                     alert("Form submitted!"); 
+                    });
+
+            </script>
+            <footer>    
+                <p>&copy; 2025 MyCompany. All rights reserved.</p> 
+            </footer>
+      </body>
+</html>
